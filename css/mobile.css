@@ -73,8 +73,7 @@ header nav a {
 /* 메인 비주얼 */
 #main-visulal {
     width: 100%;
-    padding-top: calc(50% / 2);
-    padding-bottom: calc(50% / 2);
+    height: 400px;
     background: url(../images/mobile-main.jpg);
     background-size: cover;
     background-position: center;
@@ -87,15 +86,13 @@ header nav a {
 } */
 
 #main-visulal .container {
-    display: block;
     height: 100%;
-    text-align: center;
     color: #fff;
-    padding-left: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 #main-visulal h1 {
     font-size: 35px;
     margin-bottom: 10px;
-    
 }
